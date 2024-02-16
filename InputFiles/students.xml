@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+	<student>
+		<id>1</id>
+		<f_n>john</f_n>
+		<lastName>Smith</lastName>
+		<email>john@gmail.com</email>
+	</student>
+	<student>
+		<id>2</id>
+		<f_n>Pryce</f_n>
+		<lastName>Petrik</lastName>
+		<email>Petrik@gmail.com</email>
+	</student>
+	<student>
+		<id>3</id>
+		<f_n>Jenni</f_n>
+		<lastName>Doberer</lastName>
+		<email>Jenni@gmail.com</email>
+	</student>
+	<student>
+		<id>4</id>
+		<f_n>Joe</f_n>
+		<lastName>Gwillyam</lastName>
+		<email>Joe@gmail.com</email>
+	</student>
+	<student>
+		<id>5</id>
+		<f_n>Kim</f_n>
+		<lastName>Lapworth</lastName>
+		<email>Kim@gmail.com</email>
+	</student>
+	<student>
+		<id>6</id>
+		<f_n>Ervin</f_n>
+		<lastName>Casbon</lastName>
+		<email>Ervin@gmail.com</email>
+	</student>
+	<student>
+		<id>7</id>
+		<f_n>Jobi</f_n>
+		<lastName>sen</lastName>
+		<email>jobi@gmail.com</email>
+	</student>
+</students>
