@@ -16,7 +16,7 @@ public class StudentJSON {
 	@JsonProperty("first_name")
 	private String firstName;
 
-	//private String lastName;
+	private String lastName;
 
 	private String email;
 
@@ -35,11 +35,14 @@ public class StudentJSON {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	/*
-	 * public String getLastName() { return lastName; }
-	 * 
-	 * public void setLastName(String lastName) { this.lastName = lastName; }
-	 */
+	
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 
 	public String getEmail() {
 		return email;

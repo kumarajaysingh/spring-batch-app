@@ -1,5 +1,9 @@
 package com.wikitech.springbatch.model;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "student")// this is only for xml Item writer
 public class StudentJDBC {
 
 	private Long id;
@@ -18,6 +22,7 @@ public class StudentJDBC {
 		this.id = id;
 	}
 
+	@XmlElement(name="first_name") //// this is only for xml Item writer to export firstname as first_name in xml file
 	public String getFirstName() {
 		return firstName;
 	}
