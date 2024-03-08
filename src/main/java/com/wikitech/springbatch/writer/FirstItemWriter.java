@@ -5,10 +5,8 @@ import java.util.List;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.stereotype.Component;
 
-import com.wikitech.springbatch.model.StudentCSV;
+import com.wikitech.springbatch.model.BooksResponse;
 import com.wikitech.springbatch.model.StudentJDBC;
-import com.wikitech.springbatch.model.StudentJSON;
-import com.wikitech.springbatch.model.StudentXML;
 
 @Component
 public class FirstItemWriter implements ItemWriter<StudentJDBC> {
